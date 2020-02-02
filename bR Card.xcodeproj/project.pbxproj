@@ -13,6 +13,8 @@
 		A549F4AB23E6D883002E41C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A549F4AA23E6D883002E41C3 /* Assets.xcassets */; };
 		A549F4AE23E6D883002E41C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A549F4AD23E6D883002E41C3 /* Preview Assets.xcassets */; };
 		A549F4B123E6D883002E41C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A549F4AF23E6D883002E41C3 /* LaunchScreen.storyboard */; };
+		A549F4BA23E6DC77002E41C3 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A549F4B923E6DC77002E41C3 /* Pacifico-Regular.ttf */; };
+		A549F4BC23E6E91C002E41C3 /* InfiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A549F4BB23E6E91C002E41C3 /* InfiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A549F4AD23E6D883002E41C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A549F4B023E6D883002E41C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A549F4B223E6D883002E41C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A549F4B923E6DC77002E41C3 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		A549F4BB23E6E91C002E41C3 /* InfiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		A549F4A323E6D87F002E41C3 /* bR Card */ = {
 			isa = PBXGroup;
 			children = (
+				A549F4B823E6DC4F002E41C3 /* Fonts */,
 				A549F4A423E6D87F002E41C3 /* AppDelegate.swift */,
 				A549F4A623E6D87F002E41C3 /* SceneDelegate.swift */,
 				A549F4A823E6D87F002E41C3 /* ContentView.swift */,
+				A549F4BB23E6E91C002E41C3 /* InfiView.swift */,
 				A549F4AA23E6D883002E41C3 /* Assets.xcassets */,
 				A549F4AF23E6D883002E41C3 /* LaunchScreen.storyboard */,
 				A549F4B223E6D883002E41C3 /* Info.plist */,
@@ -73,6 +79,14 @@
 				A549F4AD23E6D883002E41C3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A549F4B823E6DC4F002E41C3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A549F4B923E6DC77002E41C3 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A549F4B123E6D883002E41C3 /* LaunchScreen.storyboard in Resources */,
+				A549F4BA23E6DC77002E41C3 /* Pacifico-Regular.ttf in Resources */,
 				A549F4AE23E6D883002E41C3 /* Preview Assets.xcassets in Resources */,
 				A549F4AB23E6D883002E41C3 /* Assets.xcassets in Resources */,
 			);
@@ -148,6 +163,7 @@
 			files = (
 				A549F4A523E6D87F002E41C3 /* AppDelegate.swift in Sources */,
 				A549F4A723E6D87F002E41C3 /* SceneDelegate.swift in Sources */,
+				A549F4BC23E6E91C002E41C3 /* InfiView.swift in Sources */,
 				A549F4A923E6D87F002E41C3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
